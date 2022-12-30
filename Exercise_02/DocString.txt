@@ -1,0 +1,11 @@
+>>> def hello_world(name):
+...     """this is an explaination"""
+...     print("good day " + name)
+...
+>>> hello_world("DD")
+good day DD
+>>> help(hello_world)
+Help on function hello_world in module __main__:
+
+hello_world(name)
+    this is an explaination
